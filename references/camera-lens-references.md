@@ -13,11 +13,11 @@ Below are some references related to the use of camera and lens metadata in VFX 
 
 Cooke Optics, **Camera and Lens Definitions for VFX** by Ian Sheret. A paper on camera and lens definitions for VFX, including a discussion of  three different definitions of focal length: **nominal focal length**, **pinhole focal length**, and **effective focal length**. (To be published on the Cooke website: https://cookeoptics.com.)
 
-David Stump, ASC, **Empirically Finding the Entrance Pupil of a Lens**. This paper describes how to determine the entrance pupil of a lens by shooting two targets on C-stands. ([PDF](david-stump-asc_empirically-finding-the-entrance-pupil_v4.pdf))([WORD](david-stump-asc_empirically-finding-the-entrance-pupil_v4.docx)) 
+David Stump, ASC, **Empirically Finding the Entrance Pupil of a Lens**. This paper describes how to determine the entrance pupil of a lens by shooting two targets on C-stands. ([PDF](../../raw/main/david-stump-asc_empirically-finding-the-entrance-pupil_v4.pdf))([WORD](../../raw/main/david-stump-asc_empirically-finding-the-entrance-pupil_v4.docx)) 
 
-David Stump, ASC, **Bayer Pattern Sensors**. This paper discusses Bayer patterns and de-Bayering algorithms. ([PDF](david-stump-asc_bayer-pattern-sensors.pdf))([WORD](david-stump-asc_bayer-pattern-sensors.docx))
+David Stump, ASC, **Bayer Pattern Sensors**. This paper discusses Bayer patterns and de-Bayering algorithms. ([PDF](../../raw/main/david-stump-asc_bayer-pattern-sensors.pdf))([WORD](../../raw/main/david-stump-asc_bayer-pattern-sensors.docx))
 
-David Stump, ASC, **Proposed Definitions and decoupling the term “PIXEL” from the terms “PHOTOSITE / SENSEL”**. This paper discusses the importance of being clear about the difference between pixels and sensor photosites. ([PDF](david-stump-asc_decoupling-pixels-and-photosites_v4.pdf))([WORD](david-stump-asc_decoupling-pixels-and-photosites_v4.docx))
+David Stump, ASC, **Proposed Definitions and decoupling the term “PIXEL” from the terms “PHOTOSITE / SENSEL”**. This paper discusses the importance of being clear about the difference between pixels and sensor photosites. ([PDF](../../raw/main/david-stump-asc_decoupling-pixels-and-photosites_v4.pdf))([WORD](../../raw/main/david-stump-asc_decoupling-pixels-and-photosites_v4.docx))
 
 
 ## Documentation
