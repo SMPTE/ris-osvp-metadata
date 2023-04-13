@@ -5,7 +5,7 @@
 
 # SMPTE RIS OSVP Metadata Project
 
-DRAFT - April 7, 2023
+DRAFT - April 12, 2023
 
 This repository hosts the metadata work of the SMPTE Rapid Industry Solutions program for On-Set Virtual Production (RIS OSVP) where SMPTE has brought together a group of experts to advance education and technology for OSVP.
 
@@ -19,7 +19,7 @@ The repository also lists a set of [reference materials](references/camera-lens-
 
 ## LICENSE
 
-The SMPTE RIS OSVP Metadata project publications are open source. Please see the [LICENSE](LICENSE.txt) file in each repository for details.
+The SMPTE RIS OSVP Metadata project publications are open source. Please see the [LICENSE](LICENSE.md) file in each repository for details.
 
 ## CONTACT
 
