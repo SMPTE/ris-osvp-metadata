@@ -23,6 +23,6 @@ The SMPTE RIS OSVP Metadata project publications are open source. Please see the
 
 ## CONTACT
 
-If you have comments or questions, you can send email to ris-osvp-metadata@smpte.org or open an issue on GitHub.
+If you have comments or questions, you can send email to ris-osvp-metadata-repos@smpte.org or open an issue on GitHub.
 
 <sub>Licensed under a Creative Commons Attribution 4.0 license<br></sub>
