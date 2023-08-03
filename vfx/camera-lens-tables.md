@@ -27,11 +27,11 @@ These parameters were determined to be important for use in traditional post-VFX
 |Camera Firmware Version|Need|Static|Version identifier for the firmware of the camera|n/a|Unicode string betwee 0 and 1023 codepoints.|
 |Camera Make|Need|Static|Make of the camera|n/a|Unicode string betwee 0 and 1023 codepoints.|
 |Camera Model|Need|Static|Model of the camera|n/a|Unicode string betwee 0 and 1023 codepoints.|
-|Camera Serial Number|Need|Static|Unique identifier of the camera|n/a|Unicode string betwee 0 and 1023 codepoints.|
-|Capture Rate|Need|Static|Capture frame frate of the camera|hertz|rational number whose numerator and denominator are in the range (0..2,147,483,647].|
-|FDL Link|Need|Static|Unique identifier of the FDL used by the camera|n/a|UUID URN as specified in IETF RFC 4122. Onlyu lowercase characters shall be used. Example: urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6|
+|Camera Serial Number|Need|Static|Unique identifier of the camera|n/a|Unicode string betwee 0 and 1023 codepoints. Uniqueness is scoped to the camera make and camera model.|
+|Capture Rate|Need|Static|Capture frame frate of the camera|hertz|Rational number whose numerator and denominator are in the range (0..2,147,483,647].|
+|FDL Link|Need|Static|Unique identifier of the FDL used by the camera|n/a|UUID URN as specified in IETF RFC 4122. Only lowercase characters shall be used. Example: urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6|
 |ISO Speed|Need|Static|Arithmetic ISO scale as defined in ISO 12232|unit|Integer in the range (0..2,147,483,647].|
-|Shutter Angle|Need|Static|Shutter speed as a fraction of the capture frame rate|**0.01** degrees (angular)|The parameter shall be an integer in the range (0..360000].|
+|Shutter Angle|Need|Static|Shutter speed as a fraction of the capture frame rate|**0.01** degrees (angular)|Integer in the range (0..360000].|
 
 
 ## Lens parameters with a defined format in CAMDKIT
@@ -41,14 +41,14 @@ These lens parameters were determined to be important for use in traditional pos
 |Parameter|Need<br>vs. Like<br>to Have|Static vs.<br>Dynamic|Description|Units|Constraints|
 |--------|-------------|--------------------------|--------------|---------------|-----|
 |Anamorphic Squeeze|Need|Static|Nominal ratio of height to width of the image of an axis-aligned square captured by the camera sensor|0.01 unit|Integer in the range (0..2,147,483,647].|
-|Entrance Pupil Position|Need|Dynamic|Entrance pupil position of the lens|millimeter|rational number whose numerator and denominator are in the range (0..2,147,483,647].|
+|Entrance Pupil Position|Need|Dynamic|Entrance pupil position of the lens|millimeter|Rational number whose numerator and denominator are in the range (0..2,147,483,647].|
 |F Stop|Need|Dynamic|The linear f-number of the lens, equal to the focal length divided by the diameter of the entrance pupil|0.001 unit|Integer in the range (0..2,147,483,647].|
 |Nominal Focal Length|Need|Dynamic|Nominal focal length of the lens|millimeter|Integer in the range (0..2,147,483,647].|
 |Focus Position|Need|Dynamic|Focus distance/position of the lens|millimeter|Integer in the range (0..2,147,483,647].|
 |Lens Firmware Version|Need|Static|Version identifier for the firmware of the lens|n/a|Unicode string betwee 0 and 1023 codepoints.|
 |Lens Make|Need|Static|Make of the lens|n/a|Unicode string betwee 0 and 1023 codepoints.|
 |Lens Model|Need|Static|Model of the lens|n/a|Unicode string betwee 0 and 1023 codepoints.|
-|Lens Serial Number|Need|Static|Unique identifier of the lens|n/a|Unicode string betwee 0 and 1023 codepoints.|
+|Lens Serial Number|Need|Static|Unique identifier of the lens|n/a|Unicode string betwee 0 and 1023 codepoints. Uniqueness is scoped to the lens make and lens model.|
 |T Stop|Need|Dynamic|The linear t-number of the lens, equal to the F-number of the lens divided by the square root of the transmittance of the lens|0.001 unit|Integer in the range (0..2,147,483,647].|
 
 ## Parameters without a defined format
