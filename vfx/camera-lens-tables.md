@@ -5,7 +5,7 @@
 
 # Camera and Lens Metadata Parameters for VFX
 
-DRAFT - April 7, 2003
+DRAFT - April 7, 2023
 
 This initial set of parameters should be considered a work in progress and are being published here for community use and feedback. Work is underway on a similar set of parameters for use in in-camera VFX (ICVFX), which more directly addresses the goals of the RIS OSVP project. The initial set of parameters are those that the group deemed most essential to VFX work, with clear and well-understood methods for using them. The focus was on those parameters that impact the images as captured by the camera sensor or the original primary captured output of the camera. The parameters are listed in 5 tables:
 
